@@ -52,8 +52,8 @@ public class Constants {
 
     public static int containsCounter(List<String> commonWordsLang, String text){
         int counter = 0;
-        for (int i = 0; i < commonWordsLang.size(); i++) {
-            if (text.contains(commonWordsLang.get(i))){
+        for (String s : commonWordsLang) {
+            if (text.contains(s)) {
                 counter++;
             }
         }
