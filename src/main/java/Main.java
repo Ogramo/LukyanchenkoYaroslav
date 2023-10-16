@@ -1,4 +1,4 @@
-import com.java.additional.IO.Runner;
+import com.java.additional.Runner;
 
 public class Main {
         public static void main(String[] args) {

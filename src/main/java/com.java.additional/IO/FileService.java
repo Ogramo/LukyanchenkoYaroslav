@@ -46,9 +46,7 @@ public class FileService {
         }
         String fileName = oldFile.toString();
         int dotIndex = fileName.lastIndexOf(".");
-        String nameWithoutExtension;
-
-        nameWithoutExtension = fileName.substring(0, dotIndex);
+        String nameWithoutExtension = fileName.substring(0, dotIndex);
         String extension = fileName.substring(dotIndex);
 
         String newFileName = nameWithoutExtension + "[" + prefix + "ED]" + extension;
